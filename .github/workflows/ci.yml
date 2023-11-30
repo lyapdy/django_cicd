@@ -2,8 +2,7 @@ name: Автоматизация развёртывания
 
 on:
   push:
-    branches:
-      - ci
+    branches: [ci]
 
 jobs:
   tests:
