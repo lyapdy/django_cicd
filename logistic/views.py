@@ -25,4 +25,4 @@ class StockViewSet(ModelViewSet):
 @api_view(['GET'])
 def sample_view(request):
 
-    return Response('Этот текст был изменён!!!!')
+    return Response('Этот текст был изменён!!!')
