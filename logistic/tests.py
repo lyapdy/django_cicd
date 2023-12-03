@@ -7,4 +7,3 @@ class TestSomething(TestCase):
         client = APIClient()
         response = client.get('/api/v1/test/')
         assert response.status_code == 200
-
