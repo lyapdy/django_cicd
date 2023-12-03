@@ -38,7 +38,7 @@ jobs:
       - name: Установка python
         uses: actions/setup-python@v3
         with:
-          python-version: 3.10
+          python-version: 3.9
 
       - name: Установка зависимостей
         run: pip install -r requirements.txt
@@ -65,4 +65,4 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
-          script: expect /home/danillyapunov/django_cicd/deploy.exp
+          script: expect /home/adilet/django_cicd/deploy.exp
