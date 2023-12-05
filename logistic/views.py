@@ -24,4 +24,4 @@ class StockViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response('Этот текст изменён')
+    return Response('Преобразователи SK_ET - лучшее решение для современной мехатроники!')
